@@ -10,5 +10,12 @@ function destructivelyAppendKitten(name){
 destructivelyAppendKitten("Milton");
 
 function destructivelyPrependKitten(name){
+  kitten.unshift(name);
+  return kittens;
+}
+
+destructivelyPrependKitten("Guernsey");
+
+function destructivelyRemoveLastKitten(){
   
 }
