@@ -35,3 +35,7 @@ function appendKitten(name){
 }
 
 appendKitten("Doofus");
+
+function prependKitten(name){
+  return [name, ...kittens];
+}
