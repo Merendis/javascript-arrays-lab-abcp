@@ -8,3 +8,7 @@ function destructivelyAppendKitten(name){
 }
 
 destructivelyAppendKitten("Milton");
+
+function destructivelyPrependKitten(name){
+  
+}
