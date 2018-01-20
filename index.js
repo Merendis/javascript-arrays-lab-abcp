@@ -40,7 +40,7 @@ function prependKitten(name){
   return [name, ...kittens];
 }
 
-removeLastKitten(){
+function removeLastKitten(){
   
 }
 
