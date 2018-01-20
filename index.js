@@ -30,3 +30,6 @@ function destructivelyRemoveFirstKitten(){
 
 destructivelyRemoveFirstKitten();
 
+function appendKitten(name){
+  
+}
