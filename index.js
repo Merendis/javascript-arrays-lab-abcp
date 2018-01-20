@@ -41,6 +41,6 @@ function prependKitten(name){
 }
 
 function removeLastKitten(){
-  
+  array.slice()
 }
 
