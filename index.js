@@ -17,6 +17,12 @@ function destructivelyPrependKitten(name){
 destructivelyPrependKitten("Guernsey");
 
 function destructivelyRemoveLastKitten(){
-  kittens.pop
+  kittens.pop;
+  return kittens;
 }
 
+destructivelyRemoveLastKitten();
+
+destructivelyRemoveFirstKitten(){
+  kittens.shift
+}
